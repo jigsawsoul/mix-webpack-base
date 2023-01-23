@@ -1,6 +1,22 @@
 ## Install
 
-```npm install glob laravel-mix eslint-webpack-plugin copy-webpack-plugin stylelint-webpack-plugin stylelint stylelint-config-recommended-scss image-minimizer-webpack-plugin imagemin svgo eslint eslint-config-airbnb-base```
+```
+npm install glob laravel-mix eslint-webpack-plugin copy-webpack-plugin stylelint-webpack-plugin stylelint stylelint-config-recommended-scss image-minimizer-webpack-plugin imagemin svgo eslint eslint-config-airbnb-base
+```
+
+### Compiling
+
+To build assets for development, reach for the npx mix command. Mix will then read your webpack.mix.js configuration file, and compile your assets.
+
+`npx mix`
+
+#### Watch Assets for Changes
+
+`npx mix watch`
+
+#### Compiling for Production
+
+`npx mix --production`
 
 
 ## Overview
