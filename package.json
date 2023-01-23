@@ -1,0 +1,19 @@
+{
+  "name": "mix-webpack-base",
+  "version": "1.0.0",
+  "description": "This script is using several webpack plugins to handle different types of assets in a Laravel Mix workflow. Here's a breakdown of what each part of the code does:",
+  "main": "webpack.mix.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jigsawsoul/mix-webpack-base.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jigsawsoul/mix-webpack-base/issues"
+  },
+  "homepage": "https://github.com/jigsawsoul/mix-webpack-base#readme"
+}
